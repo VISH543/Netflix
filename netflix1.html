@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Anton&family=Bangers&display=swap');
+        body {
+            background-image: url("tenor.gif");
+        }
+        
+        .form {
+            color: white;
+            background-color: rgba(0, 0, 0, .75);
+            border: 1px solid black;
+            width: 350px;
+            height: 500px;
+            margin-left: 33%;
+            margin-top: 4%;
+            padding: 50px;
+            border-radius: 10px;
+        }
+        
+        .form input {
+            border-radius: 5px;
+            border: none;
+            outline: none;
+            border-bottom: none;
+            padding: 13px;
+        }
+        
+        .sign {
+            font-size: 174%;
+        }
+        
+        .submit {
+            width: 190px;
+            background-color: red;
+        }
+        
+        .form a {
+            color: aliceblue;
+        }
+        
+        .form a:hover {
+            color: brown;
+        }
+        
+        .des a {
+            color: blue;
+        }
+        
+        .footer {
+            color: aliceblue;
+            background-color: rgba(0, 0, 0, .75);
+            height: 200px;
+            width: 100%;
+        }
+        
+        .nav p {
+            font-size: 186%;
+            color: red;
+            margin-left: 41px;
+            margin-top: 20px;
+        }
+        
+        .footer a {
+            color: aliceblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <p><b>NETFLIX</b></p>
+    </div>
+    <div class="form">
+        <form action="/action_page.php" method="post">
+            <label for="sign" class="sign">Sign In</label><br><br>
+            <input type="email" name="email" class="email" placeholder="Enter Email"><br><br>
+            <input type="password" name="password" class="password" placeholder="Enter Password"><br><br>
+            <input type="submit" name="submit" class="submit" value="Sign In"><br>
+            <input type="checkbox" class="remember" name="remember">
+            <label for="remember">Remember me</label>
+            <label for="help"><a href="www.netflix.com" target="_blank">Need help?</a></label><br><br><br><br>
+            <label for="new">New to Netflix?<a href="www.google.com"><b>SignUp Now</b></a></label><br><br><br><br><br><br>
+            <label for="description" class="des">This page is protected by Google reCAPTCHA to ensure you're not a bot.<a href="www.fb.com">learn more.</a></label>
+        </form>
+    </div>
+    <br><br>
+    <div class="footer">
+        <p>
+            &nbsp;&nbsp; Questions? Call 000-800-040-1843
+        </p>
+        <pre>
+            <a href="#"><u><b>FAQ</b></u></a>                                      <a href="#"><u><b>Help Center</b></u> </a>                                      <a href="#"><u><b>Term of Use</b></u></a>                                                  <a href="#"><u><b>Term of Use</b></u></a>
+        </pre>
+    </div>
+</body>
+
+</html>
